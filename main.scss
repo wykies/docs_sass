@@ -346,5 +346,12 @@ article {
   }
 }
 
+blockquote {
+  border-left: $quote-border;
+  margin: 0;
+  background-color: $quote-bg;
+  padding: 0 20px;
+}
+
 @import "fabric-icons-inline";
 @import "search";
