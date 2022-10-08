@@ -210,10 +210,16 @@ nav label {
 }
 
 .subtree {
-  overflow: hidden;
-  margin: calc(#{$baseline} / 8) 0;
-  transition: overflow 0.2s ease-in-out;
-  padding: 0;
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: scroll;
+    margin: calc(#{$baseline} / 8) 0;
+    transition: overflow 0.2s ease-in-out;
+    padding: 0;
+}
+
+.subtree::-webkit-scrollbar{
+   display:none;
 }
 
 .tree-toggle-label {
