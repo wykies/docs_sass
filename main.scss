@@ -326,11 +326,11 @@ nav label {
 
 
 article {
-  width: calc(100% - ($baseline * 4 + 20rem));
+  width: calc(100% - ($baseline * 4 + 20rem) - $margin-inline / 2);
   margin-left: calc($baseline * 2);
 
   img {
-    max-width: 100%;
+    max-width: 100% - $margin-inline;
   }
 
 }
@@ -391,7 +391,7 @@ blockquote {
 }
 
 .separator {
-  width: 70%;
+  width: 100% - $margin-inline;
   border-bottom: 1px solid #cccccc;
   opacity: 0.4;
   margin: 40px auto;
@@ -401,23 +401,23 @@ blockquote {
 /* **** FOOTER **** */
 
 footer .separator {
-  margin-top: 0;
+  margin-top: 1px;
   margin-bottom: 10px;
 }
 
 footer p {
   font-size: 80%;
-  margin-inline-start: 15%;
+  margin-inline-start: $margin-inline / 2;
 }
 
 footer img {
   width: auto;
-  height: 1.25em;
-  margin-inline: 1em;
+  height: 1.5rem;
+  margin-inline: 1rem;
 }
 
 footer .icons {
-  margin-inline-end: 15%;
+  margin-inline-end: $margin-inline / 2;
   float: inline-end;
 }
 
