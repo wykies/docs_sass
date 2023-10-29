@@ -406,8 +406,19 @@ footer .separator {
 }
 
 footer p {
-  font-size: 70%;
-  text-align: center;
+  font-size: 80%;
+  margin-inline-start: 15%;
+}
+
+footer img {
+  width: auto;
+  height: 1.25em;
+  margin-inline: 1em;
+}
+
+footer .icons {
+  margin-inline-end: 15%;
+  float: inline-end;
 }
 
 /* **** IMPORTS **** */
