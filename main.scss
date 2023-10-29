@@ -159,7 +159,7 @@ nav {
 }
 
 #toc {
-  margin-left: calc(#{$baseline} + #{$font-size});
+  margin-left: calc($baseline + $font-size);
   padding: 0;
   margin: 0 0 0 $baseline;
   font-size: 80%;
@@ -195,7 +195,7 @@ main {
     display: inline-block;
     content: "\EE2E";
     font-family: 'FabricMDL2Icons';
-    margin-right: calc(#{$baseline} / 8);
+    margin-right: calc($baseline / 8);
   }
 }
 
@@ -234,7 +234,7 @@ nav label {
 
 .subtree {
   overflow: auto;
-  margin: calc(#{$baseline} / 8) 0;
+  margin: calc($baseline / 8) 0;
   transition: overflow 0.2s ease-in-out;
   padding: 0;
 }
@@ -326,8 +326,8 @@ nav label {
 
 
 article {
-  width: calc(100% - (#{$baseline} * 4 + 20rem));
-  margin-left: calc(#{$baseline} * 2);
+  width: calc(100% - ($baseline * 4 + 20rem));
+  margin-left: calc($baseline * 2);
 
   img {
     max-width: 100%;
@@ -354,7 +354,7 @@ article {
   }
 
   article {
-    width: calc(100% - (#{$baseline} * 2));
+    width: calc(100% - ($baseline * 2));
     margin: 0 $baseline;
     z-index: 1;
   }
