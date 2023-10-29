@@ -426,6 +426,20 @@ footer .icons {
   float: inline-end;
 }
 
+@media screen and (max-width: 480px) {
+
+
+  footer p,
+  footer .feedback,
+  footer .icons {
+    text-align: center;
+    margin: 1em auto;
+    display: block;
+    clear: both;
+    float: none;
+  }
+}
+
 /* **** IMPORTS **** */
 
 @import "fabric-icons-inline";
