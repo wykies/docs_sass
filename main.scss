@@ -132,6 +132,9 @@ code {
   font: $code_font;
   color: $code-color;
   background: $inline-code-background;
+  padding: 0.2em;
+  white-space: break-spaces;
+  border-radius: 0.2em;
 }
 
 .copy-code-button {
@@ -437,7 +440,6 @@ footer .icons {
 }
 
 @media screen and (max-width: 480px) {
-
 
   footer p,
   footer .feedback,
